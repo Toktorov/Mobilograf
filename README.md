@@ -1,0 +1,1 @@
+celery -A sanjar worker -l info

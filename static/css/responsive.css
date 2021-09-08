@@ -1,0 +1,1120 @@
+ 
+/* Responsive styles
+================================================== */
+ @media only screen and (min-width: 1199px) {
+ .why_choos_section {
+    background-position: 50% 30%;
+  }
+
+}
+ 
+/* Tablet Landscape 
+=======================================================================================*/
+ @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /*-------------------------------------- Header And SLider ----------------------------------------*/
+     .header_button a {
+         padding: 14px 17px;
+    }
+     .slides_wrapper h2 {
+         letter-spacing: 0px;
+    }
+
+    /*-------------------------------------- promo Section ----------------------------------------*/
+	.about_list h5 {
+		padding: 0px 0px;
+		margin-top: -10px;
+	}
+     .why_chs {
+         width: 100%;
+    }
+     .why_chs_desc p {
+         margin-top: -20px;
+    }
+     .confacts-section .container {
+         margin-left: -486px;
+    }
+     .facts_text h3 {
+         margin-top: 5px;
+         font-size: 34px;
+         line-height: 34px;
+		 margin-bottom: 0;
+    }
+     .funfact_wapr .icon-lay {
+         margin-right: 20px;
+    }
+     .team_section .team_social {
+         margin-bottom: -65px;
+    }
+     .pricing-box ul {
+         padding: 26px 10px 35px 72px;
+    }
+     .blog-warp-1 .subtext {
+         margin-right: 10px;
+    }
+     .blog_datee {
+         margin-right: 13px;
+    }
+    /* Single Page 
+	======================================================*/
+     .blog-area .blog_content_warp {
+         margin-left: 15px;
+    }
+     .sing_blog_img {
+         width: 288px;
+    }
+     .sing_blog_text {
+         padding-left: 27px;
+         width: 230px;
+    }
+     .single_blog_page .sing_blog_text::before {
+         top: -17px;
+         left: 29px;
+    }
+     .blog_com_dt {
+         width: 76%;
+    }
+    /*-------------------------------------- Index v2 ----------------------------------------*/
+     .header_promo .container {
+         margin-left: -485px;
+    }
+     .video_section_v2#video {
+         height: 100%;
+    }
+     .speaker_next {
+         margin-left: 48px;
+    }
+	.confacts_section_v2 .funfact_wapr h3 {
+         margin-top: 26px;
+    }
+}
+/* Tablet Portrait 
+=======================================================================================*/
+
+ @media (min-width: 768px) and (max-width: 991px) {
+    /*-------------------------------------- Header And SLider ----------------------------------------*/
+     .header_top_area .col-sm-5:first-child {
+         width: 47%;
+    }
+     .header_top_area .col-sm-5:nth-child(2) {
+         width: 28%;
+    }
+     .header_top_area .col-sm-2{
+         width: 25%;
+    }
+     .header_logo {
+         padding-right: 14px;
+    }
+	#navigation > ul > li > a {
+		padding: 32px 18px;
+		letter-spacing: 0px;
+	}
+     .slide_bg_1 .col-sm-6 {
+         margin-left: 43%;
+         width: 57%;
+    }
+     .slide_bg_2 .col-sm-6 {
+         width: 57%;
+    }
+     .slides_wrapper h2 {
+         font-size: 54px;
+         letter-spacing: 0px;
+         line-height: 60px;
+    }
+	
+    /*-------------------------------------- About Section ----------------------------------------*/
+     .about_list h5 {
+         padding: 0px 0px;
+         margin-top: -10px;
+    }
+	.about_bottom_warp {
+		width: 100%;
+	}
+	.about-section .col-sm-6 {
+		width: 100%;
+	}
+	.about_list_warp .col-sm-6 {
+		width: 50%;
+	}
+	.about_list h5 {
+		margin-top: 2px;
+	}
+	.about_para {
+		margin-top: 15px;
+		float: left;
+	}
+     .about-section {
+         padding-bottom: 100px;
+    }
+     .service_para h5 {
+         font-size: 17px;
+         letter-spacing: 0px;
+         margin-left: 14px;
+         top: 0px;
+    }
+     .service_para i {
+         padding: 8px;
+         font-size: 18px;
+    }
+     .why_chs {
+         padding-left: 15px;
+         width: 100%;
+    }
+     .why_chs_desc p {
+         margin-top: -20px;
+    }
+     .confacts-section .container {
+         width: 100%;
+		 left: 0;
+		 margin-left: 0;
+    }
+	.funfact_wapr .col-sm-3 {
+		padding-left: 15px;
+	}
+     .funfact_wapr .icon-lay {
+        margin-right: -4px;
+		margin-top: 16px;
+    }
+ 
+     .facts_wrapper {
+         padding: 10px 15px;
+    }
+     .facts_text {
+         margin-left: 0px;
+		 
+    }
+	.facts_wrapper i {
+    font-size: 38px;
+
+}
+	.facts_wrapper h3 {
+    letter-spacing: 0px;
+}
+.facts_text h3 {
+    margin-top: 18px;
+    font-size: 26px;
+    line-height: 30px;
+    margin-bottom: 18px;
+}
+.facts_wrapper h5 {
+    font-size: 14px;
+}
+     .project-hover h4 {
+         left: 13px;
+         text-transform: capitalize;
+         letter-spacing: 0px;
+    }
+     .project-hover span {
+         text-transform: capitalize;
+         left: 15px;
+         letter-spacing: 0px;
+    }
+     .team_social {
+         margin-bottom: -36px;
+    }
+	.team_section .team_social {
+    margin-bottom: -20px;
+}
+     .team_section .member_info h6 {
+         letter-spacing: 0px;
+		 font-size: 18px;
+    }
+     .pricing-box ul {
+         padding: 26px 10px 35px 26px;
+    }
+     .blog_datee {
+         letter-spacing: 0px;
+         margin-right: 13px;
+    }
+     .blog-warp-1 img {
+         height: 148px;
+    }
+     .blog_warp_lay_2 .blog_imgg {
+         width: 88px;
+         height: 145px;
+    }
+     .blog-warp-1 .subtext {
+         letter-spacing: 0px;
+         margin-right: 5px;
+    }
+     .testimonial-box {
+         padding: 30px 53px;
+    }
+     .bottom_contact i {
+         font-size: 24px;
+         margin-top: 9px;
+         margin-right: 13px;
+    }
+     .bottom_contact h4 {
+         font-size: 15px;
+         font-weight: 400;
+    }
+    /*-------------------------------------- footer Section ----------------------------------------*/
+     .footer-section .widget {
+         padding-bottom: 16px;
+    }
+    /*---- single Page ----- */
+     .portfolio-single-detail ul {
+         margin-bottom: -27px;
+         width: 100%;
+    }
+     .port_single_share {
+         padding-top: 45px;
+         padding-bottom: 28px;
+    }
+     .portfolio-single-detail {
+         padding-left: 10px;
+    }
+     .project-detail-list strong {
+         min-width: 118px;
+    }
+     .related_work {
+         padding-bottom: 70px;
+    }
+     .related_work .col-sm-3 {
+         width: 50%;
+         margin-bottom: 30px;
+    }
+     .contact_det {
+         margin-top: 12px;
+         margin-bottom: -50px;
+    }
+     .contact_page .contact_det ul li {
+         margin-left: 30px;
+         width: 39%;
+         margin-bottom: 30px;
+    }
+	
+
+ 
+    /* Single Page 
+	======================================================*/
+     .skill_wrap {
+         margin-top: 20px;
+    }
+     .blog-area .blog_content_warp {
+         margin-left: 11px;
+    }
+     .sing_blog_img {
+         width: 100%;
+    }
+     .sing_blog_text {
+         padding-left: 28px;
+         padding-top: 15px;
+         width: 100%;
+         padding-right: 20px;
+    }
+     .single_blog_page .sing_blog_text::before {
+         top: 15px;
+         left: 0px;
+    }
+     .blog_com_dt {
+         width: 69%;
+    }
+     .single_service_category ul {
+         padding-top: 30px;
+         padding-bottom: 10px;
+    }
+  /*-------------------------------------- Index v2 ----------------------------------------*/
+     .social-nav {
+         display: none;
+    }
+     .slides_wrapper_v2 .slide_bg_1 .col-sm-6, .slides_wrapper_v2 .slide_bg_2 .col-sm-6 {
+         margin-left: 12%;
+         width: 75%;
+    }
+     .header_promo .container {
+         margin-left: 0px;
+         left: 0%;
+         width: 100%;
+    }
+     .serv_item_v2 .serv2-left {
+         padding: 0px 0px;
+    }
+     .video_section_v2#video {
+         height: 100%;
+    }
+     .video_section_v2 .video-content {
+         padding: 0 53px;
+    }
+     .work_section_v2 .col-sm-3 {
+         width: 33.33%;
+    }
+     .single_team_slide3 {
+         margin-top: 15px;
+    }
+     .team_section_v2 {
+         padding-bottom: 50px;
+    }
+     .speaker_next {
+         margin-left: 37px;
+    }
+     .speaker_prev, .speaker_next {
+         bottom: 58%;
+    }
+	.confacts_section_v2 .container {
+		width: 750px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+  
+     .pricing_section_v2 .pricing_heading {
+         padding: 30px 14px 0px 22px;
+    }
+	.pricing_section_v2 .pricing-box h2 sub {
+		font-size: 14px;
+	}
+     .pricing_section_v2 .pricing-box ul {
+         padding: 15px 10px 35px 22px;
+    }
+     .pricing_section_v2 .pricing-box .text-left {
+         padding-left: 22px;
+    }
+     .testimonials_sec_v2 .item {
+         width: 100%;
+         margin-left: 16%;
+    }
+    /*-------------------------------------- Onepage ----------------------------------------*/
+     .manimenu a {
+         padding: 30px 14px;
+    }
+    /*-------------------------------------- Index Portfolio ----------------------------------------*/
+     .work_section_v3 .row.projects-list .col-sm-4 {
+         padding-right: 6px;
+         padding-left: 6px;
+    }
+}
+/* Phone 
+=======================================================================================*/
+ @media only screen and (max-width: 767px) {
+	 
+    /*-------------------------------------- Header And SLider ----------------------------------------*/
+    /*---- Slider----- */
+     .single_slider h2 {
+         font-size: 35px;
+         line-height: 44px;
+         letter-spacing: 0px;
+         margin-top: -60px;
+    }
+     .slides_wrapper h2::after {
+         width: 210px;
+         left: 50%;
+         margin-left: -105px;
+    }
+     .single_slider {
+         background-position: 64% 0px;
+    }
+     .slides_wrapper .col-xs-12 {
+         margin-left: 0%;
+    }
+     .single_slider .slider_item_tbcell {
+         text-align: center;
+    }
+     .slider_btn_two {
+         margin-left: 0px;
+         margin-top: 10px !important;
+    }
+    /*---- End :Slider----- */
+     .header_wrapper_1 {
+         margin-top: 0px;
+    }
+     .header_social {
+         margin-top: -3px;
+         float: left;
+         padding-bottom: 14px;
+    }
+     .header_wrapper_1 li {
+         margin-bottom: 9px;
+         display: block;
+    }
+     .header_button {
+         display: none;
+    }
+     .header_logo {
+         margin-top: -3px;
+         padding-right: 70px;
+    }
+	.header_logo img {
+		margin-top: 3px;
+	}
+     #navigation.small-screen #menu-button {
+         padding: 24px;
+         margin-top: 12px;
+    }
+     .navigation {
+         padding-bottom: 10px;
+    }
+     #navigation, #navigation ul, #navigation ul li, #navigation ul li a, #navigation #menu-button {
+         float: none;
+    }
+     #navigation.small-screen #menu-button::after, #navigation.small-screen #menu-button::before {
+         right: 0px;
+    }
+     #navigation ul ul {
+         top: 5px;
+    }
+     #navigation ul li a {
+         padding: 14px 0px;
+    }
+     #navigation > ul > li.has-sub > a {
+         padding: 14px 0px;
+    }
+     #navigation.small-screen ul {
+         margin-top: 10px;
+    }
+     #navigation > ul > li > .active {
+         color: #333;
+    }
+    /*-------------------------------------- About Section ----------------------------------------*/
+     .base-header h3 {
+         line-height: 40px;
+         letter-spacing: 0px;
+    }
+     .about-section {
+         padding-bottom: 100px;
+         padding-top: 70px;
+    }
+     .about_list {
+         margin-bottom: 15px;
+    }
+.about-section .about_list h5 {
+    letter-spacing: 0px;
+    margin-left: 70px;
+}
+     .service_section {
+         padding-bottom: 46px;
+    }
+     .service_para i {
+         padding: 7px;
+         font-size: 23px;
+    }
+.service_para h5 {
+    margin-bottom: 0px;
+    top: -5px;
+    letter-spacing: 0px;
+    margin-left: 15px;
+}
+     .why_chs {
+         padding-left: 15px;
+    }
+     .why_chs_box {
+         margin-bottom: 30px;
+    }
+.why_chs_desc p {
+    margin-top: -6px;
+}
+     .why_choos_section .why_chs_box h5 {
+         margin-bottom: 21px;
+    }
+     .why_choos_section {
+         padding-bottom: 65px;
+         background: #ffff;
+    }
+     .video-container a {
+         width: 100%;
+    }
+     .confacts-section .container {
+         padding-bottom: 90px;
+         left: 0;
+         margin-left: 0;
+         position: relative;
+    }
+     .facts_text {
+         margin-left: 0px;
+    }
+	.funfact_wapr .col-sm-3 {
+
+    padding-left: 15px;
+
+}
+ 
+.facts_text h3 {
+    font-size: 33px;
+}
+     #video {
+         height: 500px;
+    }
+     .work-section {
+         padding-top: 0px;
+         margin-top: -40px;
+         padding-bottom: 85px;
+    }
+     .work-section .col-sm-3 {
+         padding-left: 15px;
+         padding-right: 15px;
+    }
+     .single-project-item {
+         margin-bottom: 15px;
+    }
+     .projects-titles {
+         margin-bottom: -13px;
+         margin-top: -51px;
+    }
+     .projects-titles li {
+         background: transparent;
+         padding-top: 0px;
+         padding-bottom: 6px 
+    }
+     .confacts-section {
+         padding-top: 67px;
+         padding-bottom: 86px;
+    }
+     .team_section .member_warp {
+         margin-bottom: 40px;
+    }
+     .team_section {
+         padding-bottom: 60px;
+    }
+     .testimonial-box {
+         padding: 30px 0px;
+    }
+     .testi_images {
+         top: -19%;
+    }
+     .client-section {
+         padding-top: 40px;
+    }
+     .client-section .owl-stage-outer {
+         padding-bottom: 80px;
+         padding-top: 30px;
+    }
+     .client-section .owl-carousel .owl-item img {
+         width: 100%;
+    }
+     .client-box {
+         padding-right: 2px;
+         padding-left: 2px;
+    }
+     .blog-section {
+         padding-bottom: 70px;
+    }
+     .blog_datee {
+         margin-right: 14px;
+    }
+     .blog-warp-1 .subtext {
+         margin-right: 15px;
+    }
+     .blog-warp-1 h5 a {
+         letter-spacing: 0px;
+    }
+     .blog-warp-1 {
+         margin-bottom: 5px;
+    }
+     .blog_content_warp {
+         width: 100%;
+         margin-left: 0px;
+    }
+    /*-------------------------------------- Pricing Section ----------------------------------------*/
+     .pricing-section {
+         padding-bottom: 70px;
+    }
+     .pricing-box {
+         margin-bottom: 30px;
+    }
+     .pricing-section .col-sm-3 {
+         padding-right: 15px;
+         padding-left: 15px;
+    }
+     .pricing-box h4::after {
+         width: 80%;
+         left: 10%;
+    }
+     .pricing-box ul {
+         padding: 26px 20px 35px 20px;
+    }
+	.pricing-box li {
+		text-align: center;
+	}
+    /*-------------------------------------- Facts Section ----------------------------------------*/
+     .facts_wrapper {
+         margin-right: 0px;
+         margin-bottom: 15px;
+    }
+     .contact-section {
+         padding-bottom: 70px;
+    }
+     .contact_info {
+         padding-bottom: 20px;
+    }
+     .contact-form .col-sm-6 {
+         padding-left: 0;
+         padding-right: 0;
+    }
+     .bottom_contact {
+         padding-bottom: 20px;
+    }
+    /*-------------------------------------- footer Section ----------------------------------------*/
+     .footer_contact {
+         margin-bottom: 30px;
+    }
+     .footer_top {
+         padding-top: 68px;
+         padding-bottom: 33px;
+    }
+     .footer_subs {
+         padding-bottom: 57px;
+         margin-top: 28px;
+         width: 257px;
+    }
+     .subfooter {
+         padding-top: 40px;
+    }
+     .footer-section .widget p {
+         margin-bottom: 0px;
+    }
+     .subfooter .col-xs-6 {
+         width: 100%;
+         text-align: center;
+    }
+     .subfooter p {
+         margin-left: 0px;
+         float: none;
+    }
+     .footer-section .widget {
+         padding-bottom: 0px;
+         margin-bottom: 10px;
+    }
+     .footer-section .widget h5 {
+         margin-bottom: 10px;
+    }
+     .footer_contact_info {
+         margin-bottom: 25px;
+    }
+     .copyright_text {
+         margin-top: 0px;
+         margin-bottom: 25px;
+    }
+     .footer_social_icons {
+         text-align: center;
+         display: inline-flex;
+         margin-bottom: 22px;
+    }
+     .scrollup {
+         position: absolute;
+         top: -60px;
+         right: 15px;
+    }
+    /*---- single Page ----- */
+     header .container {
+         padding-top: 75px;
+    }
+     .blog-area {
+         padding-right: 15px;
+         margin-bottom: -80px;
+    }
+     .blog_container {
+         padding-bottom: 100px;
+    }
+     .post-option {
+         padding: 25px 15px;
+    }
+     .single_blog_page .sing_blog_text::before {
+         top: 25px;
+         left: 1px;
+    }
+     .sing_blog_img {
+         width: 100%;
+    }
+     .sing_blog_text {
+         padding-left: 37px;
+         padding-top: 20px;
+         width: 100%;
+         padding-right: 20px;
+    }
+     .blog_com_dt {
+         width: 100%;
+         margin-left: 0px;
+         margin-top: 20px;
+    }
+     .comments li .comment:last-child {
+         padding-left: 0px;
+    }
+     .single_service_page_content {
+         padding-right: 15px;
+    }
+     .single_service_section {
+         padding-bottom: 100px;
+    }
+     .single_service_section .service_list_img {
+         width: 100px;
+    }
+     .single_service_section .service_info {
+         width: 49%;
+    }
+     .single_service_page_content .single_service_consult {
+         padding: 22px;
+         padding-bottom: 26px;
+         text-align: center;
+    }
+     .single_service_page_content .single_service_consult i {
+         width: 100%;
+         padding: 0 0 15px 0px;
+         line-height: 27px;
+    }
+     .single_service_page_content .single_service_consult a {
+         float: none;
+    }
+     .contact_det {
+         margin-top: 50px;
+         margin-bottom: -50px;
+    }
+     .contact_page .contact_det ul li {
+         margin-left: 0px;
+         width: 100%;
+         margin-bottom: 15px;
+         text-align: center;
+    }
+     .contact-form {
+         padding: 30px 10px;
+    }
+     .portfolio-single-detail {
+         padding-left: 0px;
+         margin-top: 50px;
+    }
+     .single-work-page {
+         padding-bottom: 90px;
+    }
+     .portfolio-single-detail ul {
+         width: 43%;
+         margin-right: 18px;
+    }
+     .port_single_share ul {
+         width: 100%;
+    }
+     .related_work {
+         padding-bottom: 83px;
+         padding-top: 60px;
+    }
+    /* Single Page 
+	======================================================*/
+     .skill_wrap {
+         margin-top: 20px;
+    }
+     .about_pg_lst ul {
+         width: 100%;
+    }
+     .blog-area .blog_content_warp {
+         margin-left: 0px;
+    }
+     .client_page {
+         padding-top: 80px;
+    }
+	.work_page {
+    padding-top: 96px;
+}
+    /*---- Single Page ----- */
+     .confacts_page {
+         padding-top: 0px !important;
+         padding-bottom: 0px;
+         margin-top: -60px;
+    }
+    /*-------------------------------------- Index v2 ----------------------------------------*/
+     .navigation_v2 #navigation {
+         float: none;
+         display: inherit;
+    }
+     .social-nav {
+         display: none;
+    }
+     .slides_wrapper_v2 .slide_bg_1 .col-sm-6 {
+         margin-left: 0%;
+         width: 100%;
+    }
+     .slides_wrapper_v2 .slide_bg_2 .col-sm-6 {
+         margin-left: 0%;
+         width: 100%;
+    }
+     .owl-nav div {
+         left: 50%;
+         margin-top: -20px;
+         bottom: 0%;
+         margin-left: -60px;
+         margin-bottom: 30px;
+         top: 94%;
+    }
+     .owl-nav div.owl-next {
+         right: 50%;
+         margin-right: -50px;
+    }
+     .owl-nav div.owl-next {
+         right: 50%;
+         margin-right: -50px;
+    }
+     .header_promo {
+         padding-top: 100px;
+         background: #F6F8FA;
+         padding-bottom: 85px;
+    }
+     .header_promo .col-sm-4 {
+         padding-left: 15px;
+         padding-right: 15px;
+         margin-bottom: 15px;
+    }
+     .header_promo .container {
+         left: 0%;
+         margin-left: 0;
+         width: 100%;
+         top: 0;
+         position: inherit;
+    }
+     .single_promo_box.single_promo_box_2 {
+         position: inherit;
+         top: 0;
+    }
+     .about_section_v2 {
+         padding-top: 64px;
+         padding-bottom: 70px;
+    }
+     .video_section_v2 .video-content {
+         padding: 0px;
+    }
+     .video_section_v2 .video-content h2 {
+         font-size: 25px;
+         line-height: 34px;
+         margin-bottom: 25px;
+    }
+     .work_section_v2 {
+         padding-top: 104px;
+         padding-bottom: 40px;
+    }
+     .team_section_v2 {
+         padding-bottom: 100px;
+    }
+     .team_content {
+         width: 100%;
+    }
+     .single_team_img {
+         width: 100%;
+         margin-bottom: 10px;
+         height: 100%;
+    }
+     .team_content > p {
+         margin-bottom: 25px;
+         margin-top: -8px;
+    }
+     .team_social_link {
+         top: 0;
+         position: inherit;
+         margin-bottom: 30px;
+    }
+     .speaker_next {
+         left: 0%;
+         margin-left: 0px;
+    }
+     .speaker_prev, .speaker_next {
+         margin-bottom: -174px;
+    }
+     .team_wrap2 {
+         margin-top: -20px;
+         padding-right: 0px;
+    }
+     .slick-next {
+         right: 0px;
+    }
+     .slick-next::before {
+         display: none;
+    }
+     .confacts_section_v2 {
+         padding-top: 20px;
+         padding-bottom: 0px;
+    }
+     .confacts_section_v2 .facts_wrapper {
+         padding-left: 0px;
+         margin-bottom: -20px;
+         text-align: center;
+    }
+     .confacts_section_v2 .facts_text {
+         text-align: center;
+    }
+     .testimonials_sec_v2 {
+         background: #ECF4F6;
+    }
+     .testimonials_sec_v2 .item {
+         width: 100%;
+         margin-left: 0%;
+    }
+     .testimonials_sec_v2 .testimonial-box {
+         padding: 0px 0px;
+    }
+     .testimonials_sec_v2 .base-header2 {
+         text-align: left;
+         margin-left: 0%;
+         width: 100%;
+         padding-bottom: 0px;
+    }
+     .testimonials_sec_v2 .base-header2::after {
+         margin-top: -12px;
+         top: 10%;
+    }
+     .client_section_v2 {
+         padding-top: 0px;
+    }
+     .client_section_v2 .owl-stage-outer {
+         padding-bottom: 42px;
+         padding-top: 70px;
+    }
+     .pricing_section_v2 .pricing_heading {
+         padding: 30px 30px 0px 30px;
+    }
+     .pricing_section_v2 .pricing-box ul {
+         padding: 15px 10px 35px 30px;
+    }     
+	.pricing_section_v2 .pricing-box ul li {
+         text-align: left;
+    }
+     .pricing_section_v2 .pricing-box .text-left {
+         padding-left: 30px;
+    }
+    /*-------------------------------------- Index Portfolio ----------------------------------------*/
+     .work_section_v3 .row.projects-list .col-sm-4 {
+         padding-right: 15px;
+    }
+ 
+	.work_section_v3 .projects-titles li {
+		margin-bottom: 10px;
+		margin-right: 4px;
+		padding: 5px 22px;
+	}
+    /* =============================================== 
+		OnePage
+	======================================================*/
+     .navbar-toggle {
+         margin-top: 13px;
+    }
+     .manimenu .navbar-brand > img {
+         margin-top: -24px;
+    }
+     .manimenu ul > li {
+         float: none;
+    }
+     .manimenu ul li a {
+         padding: 10px 20px;
+         text-transform: uppercase;
+    }
+     .manimenu ul li:first-child {
+         padding-top: 10px;
+    }
+     .manimenu ul li:last-child {
+         padding-bottom: 10px;
+    }
+     .manimenu .navbar-collapse {
+         max-height: 700px;
+         padding-right: 5px;
+         border-color: transparent;
+         margin-left: 0px !important;
+         margin-right: 0px !important;
+         background: #fff;
+    }
+     .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+         background-color: transparent;
+    }
+     .navbar-default .navbar-toggle {
+         border-color: #333;
+    }
+     .navbar-default .navbar-toggle .icon-bar {
+         background-color: #333;
+    }
+}
+/* Mobile Vertical Layout: 488px 
+===============================================================================*/
+
+
+ @media only screen and (min-width: 488px) and (max-width: 767px) {
+    /*---- Slider----- */
+     .single_slider h2 {
+         font-size: 40px;
+    }
+     .single_slider {
+         font-size: 17px;
+         text-align: center;
+    }
+     .slider_btn_one {
+         margin-right: 1px;
+    }
+    /*---- End: Slider----- */
+     .why_chs_box {
+         width: 50%;
+         float: left;
+    }
+     .serv_top_section {
+         padding-bottom: 0px;
+    }
+     .service_section {
+         padding-bottom: 70px;
+    }
+     .serv_top_wrapper {
+         padding-bottom: 32px;
+         border-bottom: 1px solid #e4f3f1;
+         padding-top: 28px;
+    }
+     .blog-section .col-xs-12, .serv_top_section .col-xs-12, .pricing-section .col-xs-12, .about-section .col-xs-12, .team_section .col-xs-12, .confacts-section .col-xs-12 {
+         width: 50%;
+    }
+ 
+     .about_list h5 {
+         letter-spacing: 0px;
+         margin-left: 68px;
+    }
+    /*---- Fact ----- */
+     .facts_wrapper {
+         margin-bottom: 30px;
+    }
+     .confacts-section {
+         padding-top: 100px !important;
+         padding-bottom: 86px;
+    }
+     .confacts-section .container {
+         padding-bottom: 70px;
+         padding-top: 100px;
+    }
+ .facts_wrapper i {
+    font-size: 44px;
+}
+.funfact_wapr .icon-lay {
+    margin-top: 10px;
+    margin-right: 24px;
+}
+     #video {
+         height: 400px;
+    }
+     .video-content h2 {
+         line-height: 36px;
+    }
+    /*---- footer----- */
+     .footer-section .col-xs-1 {
+         width: 6.667%;
+    }
+    /*---- Single Page ----- */
+     .confacts_page {
+         padding-top: 50px !important;
+         padding-bottom: 0px;
+    }
+     .confacts_page .container {
+         padding-bottom: 70px;
+         padding-top: 0px;
+    }
+    /*-------------------------------------- Index v2 ----------------------------------------*/
+     .about_section_v2 .about_v2_list, .service_section_v2 .col-xs-12{
+         width:50%;
+         float:left;
+    }
+     .confacts_section_v2 .funfact_wapr h3{
+         margin-bottom: 0;
+    }
+     .confacts_section_v2 .container {
+         padding-bottom: 20px;
+         padding-top: 0px;
+    }
+    /*-------------------------------------- Index Portfolio ----------------------------------------*/
+     .work_section_v3 .row.projects-list .col-xs-12 {
+         padding-right: 0px;
+         padding-left: 0px;
+         width: 50%;
+    }
+     .work_section_v3 .single-project-item {
+         margin-bottom: 0px;
+    }
+     .work_section_v3 .row.projects-list .col-sm-4:nth-child(7) .single-project-item {
+         height: 600px !important;
+    }
+}
+ 
