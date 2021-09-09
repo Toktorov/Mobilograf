@@ -4009,3 +4009,20 @@ text-align: left;
 {
 	display: block;
 } 
+
+
+
+.gradient {
+    color: transparent;    
+    color: #ffc444;
+    font-size:x-large;
+    font-weight: bold;
+}
+.gradient_e{
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(to top, #0676DC, #ee9f37);
+    font-size: x-large;
+    font-weight: bold;
+}

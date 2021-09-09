@@ -1,0 +1,55 @@
+{% load static %}
+<section class="contact-section">
+    <div class="container" id="contact">
+        <!-- Start: Heading -->
+        <div class="base-header">
+            <h3>Записаться на курс</h3>
+        </div>
+        <!-- End:  heading -->
+        <div class="row">
+            <!-- Start:  Content  -->
+            <div class="inner-contact">
+                <div class="row contact_info">
+                    <div class="bottom_contact col-sm-4 col-xs-12"><i class="icon_pin_alt"></i>
+                        <p>адрес </p>
+                        <h4>Ош, Кыргызстан</h4>
+                    </div>
+                    <div class="bottom_contact col-sm-4 col-xs-12"><i class="icon_phone"></i>
+                        <p>телефон</p>
+                        <h4><a href="tel:+996703882069">+996 703 882069</a></h4>
+                    </div>
+                    <div class="bottom_contact col-sm-4 col-xs-12"><i class="icon_clock_alt"></i>
+                        <p>время работы</p>
+                        <h4>24/7</h4>
+                    </div>
+                </div>
+                <!-- End:contact-info  -->
+                <div class="row">
+                    <!--  Contact Form  -->
+                    <div class="contact-form">
+                        <form action="{%url  'contact' %}" id="contactForm" method="post" name="contactForm">
+                            {% csrf_token %}
+                            <div class="col-sm-8 col-12">
+                                <div class="form-group col-sm-12">
+                                    <input class="form-control" id="Name" name="Name" placeholder="ФИО :" type="text" required>
+                                </div>
+                                <div class="form-group col-sm-12">
+                                    <input class="form-control" id="Email" name="Email" placeholder="элек.адрес :" type="text" required>
+                                </div>
+                                <div class="form-group col-sm-12">
+                                    <input class="form-control" id="Tel" name="Tel" placeholder="телефон :" type="text" required>
+                                </div>
+                                <!-- {{ form.as_p }} -->
+                                <input class="submit-button btn btn-chos" name="submit" value="Отправить" type="submit">
+                            </div>
+                        </form>
+                    </div>
+                    <!-- End:Contact Form  -->
+                </div>
+            </div>
+            <!-- End: inner-contact-->
+        </div>
+        <!-- End: row-->
+    </div>
+    <!-- End: container-->
+</section>
