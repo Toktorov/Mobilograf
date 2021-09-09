@@ -9,9 +9,9 @@ from .tasks import send_info
 class ContactView(CreateView):
     model = Contact
     form_class = ContactForm
-    success_url = '/'
+    success_url = '/' 
 
-
+    
     def form_valid(self, form):
         form.save()
         send_info.delay(

@@ -8,7 +8,7 @@ import os
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'sanjar.settings')
 
 
-app = Celery('abhaz')
+app = Celery('sanjar')
 app.config_from_object('django.conf:settings', namespace='CELERY')
 app.autodiscover_tasks()
 
