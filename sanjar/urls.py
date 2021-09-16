@@ -4,7 +4,12 @@ from django.contrib import admin
 from django.urls import path, include
 
 
+api_urlpatterns = [
+    path('', include('posts.api.urls')),
+]
+
 urlpatterns = [
+    path('api/', include(api_urlpatterns)),
     path('admin/', admin.site.urls),
     path('', include('main.urls')),
     path('contact/', include('contact.urls')),

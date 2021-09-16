@@ -25,9 +25,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
 
+    #apps
     'main',
-    'contact'
+    'contact',
+    'posts',
 ]
 
 MIDDLEWARE = [
@@ -61,6 +64,13 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'sanjar.wsgi.application'
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework_simplejwt.authentication.JWTAuthentication',
+    )
+}
 
 
 # Database
