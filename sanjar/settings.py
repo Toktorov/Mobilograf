@@ -31,6 +31,7 @@ INSTALLED_APPS = [
     'main',
     'contact',
     'posts',
+    'users',
 ]
 
 MIDDLEWARE = [
@@ -149,3 +150,5 @@ EMAIL_HOST_USER = 'oichiev.edzen@gmail.com'
 EMAIL_HOST_PASSWORD = 'wznplcwovqexwjxs'
 
 SITE_ID = 1
+
+AUTH_USER_MODEL = 'users.User'

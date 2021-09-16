@@ -6,6 +6,7 @@ from django.urls import path, include
 
 api_urlpatterns = [
     path('', include('posts.api.urls')),
+    path('users/', include('users.api.urls')),
 ]
 
 urlpatterns = [
